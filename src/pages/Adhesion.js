@@ -1,6 +1,5 @@
 import React, {useState} from "react";
-import ficheInscription from "./ficheInscription.jpeg"
-import test from "../img/membresDuBureau.png"
+import ficheInscription from "../img/ficheInscription.png"
 import {Button, Image, Modal} from "react-bootstrap";
 
 
@@ -26,7 +25,6 @@ function Adhesion() {
                 <Modal.Body>
                     <p>Pour télécharger la fiche d'inscription faites clic droit puis "Enregistrez l'image sous..."</p>
                     <Image src={ficheInscription} fluid></Image>
-                    <Image src={test} fluid></Image>
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick={handleClose}>
