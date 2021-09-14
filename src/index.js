@@ -14,7 +14,7 @@ ReactDOM.render(
                 backgroundColor: "black",
                 borderBottom: "1px solid"
             }}>
-                <Container>
+                <Container style={{textAlign:"center"}}>
                     <Image src={header} fluid></Image>
                 </Container>
             </div>
