@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import ficheInscription from "../ficheInscription.jpeg"
+import ficheInscription from "../img/ficheInscription.jpeg"
 import {Button, Image, Modal} from "react-bootstrap";
 
 
