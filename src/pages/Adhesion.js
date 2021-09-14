@@ -6,7 +6,7 @@ class Adhesion extends Component {
             <div>
                 <h1>Inscriptions</h1>
                 <p>Pour vous inscrire veuillez à télécharger et remplir ce document :</p>
-                <a href="./ficheInscription.jpeg" target="_blank" download>Lien pour la fiche d'inscription</a>
+                <a href="ficheInscription.jpeg" target="_blank" download>Lien pour la fiche d'inscription</a>
             </div>
         );
     }
