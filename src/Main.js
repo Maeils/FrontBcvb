@@ -8,10 +8,9 @@ import NavDropdown from 'react-bootstrap/NavDropdown'
 import Nav from 'react-bootstrap/Nav'
 import Container from 'react-bootstrap/Container'
 import Home from "./pages/Home";
-import Stuff from "./pages/Stuff";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Club from "./pages/Club";
-import logo from "./img/logo.jpeg"
+import logo from "./img/logoBcvb.png"
 import {Image} from "react-bootstrap";
 import Adhesion from "./pages/Adhesion";
 
@@ -19,9 +18,9 @@ class Main extends Component {
   render() {
       return (
         <HashRouter>
-          <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+          <Navbar collapseOnSelect expand="lg" bg="black" variant="dark">
             <Container>
-            <Navbar.Brand href="/"><Image width={50} height={50} src={logo}/></Navbar.Brand>
+            <Navbar.Brand href="/"><Image width={50} height={50} src={logo} roundedCircle/></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto">

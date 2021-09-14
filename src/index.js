@@ -3,23 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Main from "./Main";
 import Container from "react-bootstrap/Container";
+import header from "./header.png"
+import {Image} from "react-bootstrap";
 
 ReactDOM.render(
     <React.StrictMode>
+        <title>BCVB</title>
         <header>
             <div style={{
-                height: "200px",
                 backgroundColor: "black",
-                textAlign: "center",
-                alignItems: "center",
-                display: "flex"
+                borderBottom: "1px solid"
             }}>
                 <Container>
-                    <ul>
-                        <li>
-                            <h1 style={{color: "white", fontSize: "5em"}}>BCVB</h1>
-                        </li>
-                    </ul>
+                    <Image src={header} fluid></Image>
                 </Container>
             </div>
         </header>
