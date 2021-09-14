@@ -13,6 +13,9 @@ import Club from "./pages/Club";
 import logo from "./img/logoBcvb.png"
 import {Image} from "react-bootstrap";
 import Adhesion from "./pages/Adhesion";
+import Junior from "./pages/Junior";
+import Loisirs from "./pages/Loisirs";
+import Competition from "./pages/Competition";
 
 class Main extends Component {
   render() {
@@ -29,7 +32,7 @@ class Main extends Component {
                 <NavDropdown menuVariant="dark" title="Séances" id="navbarScrollingDropdown">
                   <NavDropdown.Item href="#/jeunes">Jeunes</NavDropdown.Item>
                   <NavDropdown.Item href="#/loisirs">Loisirs</NavDropdown.Item>
-                  <NavDropdown.Item href="#/compétition">Compétition</NavDropdown.Item>
+                  <NavDropdown.Item href="#/competition">Compétition</NavDropdown.Item>
                 </NavDropdown>
               </Nav>
             </Navbar.Collapse>
@@ -37,8 +40,11 @@ class Main extends Component {
           </Navbar>
           <Container>
             <Route exact path="/" component={Home}/>
-            <Route exact path="/club" component={Club}/>
+            <Route path="/club" component={Club}/>
             <Route path="/adhesion" component={Adhesion}/>
+            <Route path="/jeunes" component={Junior}/>
+            <Route path="/loisirs" component={Loisirs}/>
+            <Route path="/competition" component={Competition}/>
           </Container>
         </HashRouter>
     );
