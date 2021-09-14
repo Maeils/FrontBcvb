@@ -14,7 +14,7 @@ class Club extends Component {
                     <p>Le club a pour vocation de permettre au plus grand nombre de venir faire du
                         volley-ball,
                         en
-                        mettant à disposition, grâce au soutien de la mairie d’Annecy et aux infrastructures
+                        mettant à disposition, grâce au soutien de la mairie de Bois-Colombes et aux infrastructures
                         de
                         l’agglomération. Le matériel et les bénévoles permettent la pratique de ce sport
                         pour
