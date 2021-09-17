@@ -11,7 +11,7 @@ function Junior() {
             <Row>
                 <Col>
                     <p>Section crée pour les jeunes de 8 à 17 ans, afin de leurs permettre de découvrir, avec l'aide de
-                        Jérémie, les bases du volley-ball.
+                        Jérémy, les bases du volley-ball.
                         <br/>
                         <br/>
                         N'oubliez pas de vous équiper de chaussures adaptées à mettre sur place et d'une bouteille
@@ -22,7 +22,7 @@ function Junior() {
                     <h3>Adresse</h3>
                     <p>Gymnase Max Boy, 92270 Bois-Colombes</p>
                     <h3>Horaires</h3>
-                    <p>Mercredi de 18h à 20h</p>
+                    <p>Mercredi de 18h00 à 20h00</p>
                 </Col>
             </Row>
 

@@ -32,7 +32,7 @@ class Main extends Component {
                 <NavDropdown menuVariant="dark" title="Séances" id="navbarScrollingDropdown">
                   <NavDropdown.Item href="#/jeunes">Jeunes</NavDropdown.Item>
                   <NavDropdown.Item href="#/loisirs">Loisirs</NavDropdown.Item>
-                  <NavDropdown.Item href="#/competition">Compétition</NavDropdown.Item>
+                  <NavDropdown.Item href="#/competitions">Compétition</NavDropdown.Item>
                 </NavDropdown>
               </Nav>
             </Navbar.Collapse>

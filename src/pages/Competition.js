@@ -15,11 +15,11 @@ function Competition() {
                 </Col>
                 <Col>
                     <h3>Adresse</h3>
-                    <p><b>Mercredi</b> : Gymnase Max Boy, 92270 Bois-Colombes</p>
-                    <p><b>Dimanche</b> : Complexe sportif Albert-Smirlian, 11 Av. Renée, 92270 Bois-Colombes</p>
+                    <p><b>Lundi</b> : Gymnase Max Boy, 92270 Bois-Colombes</p>
+                    <p><b>Mercredi</b> : Complexe sportif Albert-Smirlian, 11 Av. Renée, 92270 Bois-Colombes</p>
                     <h3>Horaires</h3>
-                    <p>Mercredi de 20h15 à 22h15</p>
-                    <p>Dimanche de 18 à 20h</p>
+                    <p><b>Lundi</b> : de 20h15 à 22h15</p>
+                    <p><b>Mercredi</b> : de 20h30 à 22h30</p>
                 </Col>
             </Row>
 
