@@ -18,6 +18,7 @@ import arnault from "../img/trombinoscope/arnault.png";
 import yann from "../img/trombinoscope/yann.png";
 import yann2 from "../img/trombinoscope/yann2.jpeg";
 
+import image1 from "../img/galerie/image1.jpeg"
 import image2 from "../img/galerie/image2.jpeg"
 import image3 from "../img/galerie/image3.jpeg"
 
@@ -36,10 +37,10 @@ class Club extends Component {
         </div>
         <Container>
           <Row>
-            <Col>
+            <Col style={{display:"flex" ,alignItems:"center"}}>
 
               <div>
-                <p><br/>Le club a pour vocation de permettre au plus grand nombre de venir faire du
+                <p>Le club a pour vocation de permettre au plus grand nombre de venir faire du
                   volley-ball, en mettant à disposition, grâce au soutien de la mairie de Bois-Colombes et aux infrastructures
                   de l’agglomération.<br/> Le matériel et les bénévoles permettent la pratique de ce sport pour tout le monde, à tout âge, quel que soit le niveau.
                   <br/><br/>
@@ -54,26 +55,26 @@ class Club extends Component {
                     annuelle…).</p>
                 </div>
               </Col>
-              <Col>
-                <Carousel>
+              <Col style={{display:"flex" ,alignItems:"center"}}>
+                <Carousel style={{minWidth:"250px"}}>
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src={image2}
+                      src={image1}
                       alt="First slide"
                       />
                   </Carousel.Item>
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src={image3}
+                      src={image2}
                       alt="Second slide"
                       />
                   </Carousel.Item>
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src={image2}
+                      src={image3}
                       alt="Third slide"
                       />
                   </Carousel.Item>
