@@ -16,6 +16,8 @@ import Adhesion from "./pages/Adhesion";
 import Junior from "./pages/Junior";
 import Loisirs from "./pages/Loisirs";
 import Competition from "./pages/Competition";
+import Contact from "./pages/Contact";
+import Merch from "./pages/Merch";
 
 class Main extends Component {
   render() {
@@ -34,17 +36,22 @@ class Main extends Component {
                   <NavDropdown.Item href="#/loisirs">Loisirs</NavDropdown.Item>
                   <NavDropdown.Item href="#/competitions">Compétition</NavDropdown.Item>
                 </NavDropdown>
+                <Nav.Link href="#/contact">Contact</Nav.Link>
+                <Nav.Link href="#/shop">Le shop</Nav.Link>
+
               </Nav>
             </Navbar.Collapse>
             </Container>
           </Navbar>
           <Container>
-            <Route exact path="/" component={Home}/>
+            <Route exact path="/" component={Club}/>
             <Route path="/club" component={Club}/>
             <Route path="/adhesion" component={Adhesion}/>
             <Route path="/jeunes" component={Junior}/>
             <Route path="/loisirs" component={Loisirs}/>
-            <Route path="/competition" component={Competition}/>
+            <Route path="/competitions" component={Competition}/>
+            <Route path="/contact" component={Contact}/>
+            <Route path="/shop" component={Merch}/>
           </Container>
         </HashRouter>
     );

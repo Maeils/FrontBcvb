@@ -24,22 +24,15 @@ class Club extends Component {
                         <Col style={{display: "flex", alignItems: "center"}}>
 
                             <div>
-                                <p>Le club a pour vocation de permettre au plus grand nombre de venir faire du
-                                    volley-ball, en mettant à disposition, grâce au soutien de la mairie de
-                                    Bois-Colombes et aux infrastructures
-                                    de l’agglomération.<br/> Le matériel et les bénévoles permettent la pratique de ce
-                                    sport pour tout le monde, à tout âge, quel que soit le niveau.
+                                <p>Club fondé il ya maintenant plus de 10 ans, nous avons à coeur de permettre au plus
+                                    grand nombre de faire ou découvrir le volley-ball. <br/>
+                                    Les membres du bureau ont pour but de permettre à tous, peut importe l'âge ou le
+                                    niveau de pratiquer ce sport.
                                     <br/><br/>
-                                    L’accent est mis depuis plusieurs années sur l’accueil et la formation des jeunes,
-                                    afin de leur permettre d’acquérir les bases et
-                                    les principes du jeu.
-                                    <br/><br/>
-                                    Ces dernières années beaucoup d’efforts ont été faits pour améliorer la convivialité
-                                    et
-                                    l’échange entre les différentes équipes ainsi qu’avec les parents des nombreux
-                                    jeunes
-                                    évoluant dans les diverses équipes de notre club (tournoi interne, soirée
-                                    annuelle…).</p>
+                                    Club conviviale, le BCVB cherche à pratiquer dans la bonne humeur le volley-ball
+                                    afin de permettre aux jeunes et aux moins jeunes d'acquérir les bases et les
+                                    principes du jeu, mais aussi aux plus expérimentés de perfectionner leurs pratiques
+                                </p>
                             </div>
                         </Col>
                         <Col style={{display: "flex", alignItems: "center"}}>
@@ -47,22 +40,22 @@ class Club extends Component {
                                 <Carousel.Item>
                                     <img
                                         className="d-block w-100"
-                                        src="https://photobcvb.s3.eu-west-3.amazonaws.com/image1.jpeg"
-                                        alt="First slide"
-                                    />
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <img
-                                        className="d-block w-100"
                                         src="https://photobcvb.s3.eu-west-3.amazonaws.com/image2.jpeg"
-                                        alt="Second slide"
+                                        alt="Entrainement à Smirlian"
                                     />
                                 </Carousel.Item>
                                 <Carousel.Item>
                                     <img
                                         className="d-block w-100"
                                         src="https://photobcvb.s3.eu-west-3.amazonaws.com/image3.jpeg"
-                                        alt="Third slide"
+                                        alt="Entrainement à Smirlian"
+                                    />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                        className="d-block w-100"
+                                        src="https://photobcvb.s3.eu-west-3.amazonaws.com/image5.jpeg"
+                                        alt="Beach-volley"
                                     />
                                 </Carousel.Item>
                             </Carousel>

@@ -10,8 +10,18 @@ function Competition() {
 
             <Row>
                 <Col>
+                    <p>Peut-être la future relève de notre équipe olympique, venez rejoindre une de nos équipes
+                        masculines
+                        participant au championnant FSGT 95 ou l'équipe féminine qui elle participe au championnat FFVB
+                        loisir du 92</p>
+                    <h5>Les différentes équipes</h5>
                     <p>
-                        Todo</p>
+                        <br/>
+                        Une équipe 6x6 masculine étant poule 1 du championnat FSGT 95 <br/><br/>
+                        Une équipe 6x6 masculine étant poule 2 du championnat FSGT 95 <br/><br/>
+                        Une équipe 4x4 masculine étant poule 2 du championnat FSGT 95 <br/><br/>
+                        Une équipe 4x4 féminine étant poule 1 du championnat FFVB 92 loisir<br/>
+                    </p>
                 </Col>
                 <Col>
                     <h3>Adresse</h3>

@@ -11,7 +11,7 @@ function Adhesion() {
     return (
         <div>
             <h1>Inscriptions</h1>
-
+            <p><b>Les inscriptions pour les sections jeunes et loisirs sont pour le moment complètes.</b></p>
             <p>Pour vous inscrire veuillez à télécharger et remplir la fiche d'inscription</p>
 
             <Button variant="dark" size="sm" onClick={handleShow}>
