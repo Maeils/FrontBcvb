@@ -11,9 +11,6 @@ import sloanne from "../img/trombinoscope/sloanne.png";
 import arnault from "../img/trombinoscope/arnault.png";
 import yann from "../img/trombinoscope/yann.png";
 
-import image2 from "../img/galerie/image2.jpeg"
-import image3 from "../img/galerie/image3.jpeg"
-
 
 class Club extends Component {
     render() {
@@ -57,14 +54,14 @@ class Club extends Component {
                                 <Carousel.Item>
                                     <img
                                         className="d-block w-100"
-                                        src={image2}
+                                        src="https://photobcvb.s3.eu-west-3.amazonaws.com/image1.jpeg"
                                         alt="Second slide"
                                     />
                                 </Carousel.Item>
                                 <Carousel.Item>
                                     <img
                                         className="d-block w-100"
-                                        src={image3}
+                                        src="https://photobcvb.s3.eu-west-3.amazonaws.com/image1.jpeg"
                                         alt="Third slide"
                                     />
                                 </Carousel.Item>
