@@ -24,8 +24,7 @@ function Loisirs() {
                     </p>
                     <h4>Le Dimanche</h4>
                     <p>
-                        Session libre, cette séance est accessible sur inscription via l'application SportMember. Vous y
-                        retrouverez peut-être quelques joueurs de la section compétition qui se sont perdus.
+                        Session libre, cette séance est accessible sur inscription via l'application SportMember.
                     </p>
                     <p>
                         N'oubliez pas d'apporter une paire de chaussures adaptées à mettre une fois dans le gymnase
