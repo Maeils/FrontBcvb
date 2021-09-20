@@ -54,14 +54,14 @@ class Club extends Component {
                                 <Carousel.Item>
                                     <img
                                         className="d-block w-100"
-                                        src="https://photobcvb.s3.eu-west-3.amazonaws.com/image1.jpeg"
+                                        src="https://photobcvb.s3.eu-west-3.amazonaws.com/image2.jpeg"
                                         alt="Second slide"
                                     />
                                 </Carousel.Item>
                                 <Carousel.Item>
                                     <img
                                         className="d-block w-100"
-                                        src="https://photobcvb.s3.eu-west-3.amazonaws.com/image1.jpeg"
+                                        src="https://photobcvb.s3.eu-west-3.amazonaws.com/image3.jpeg"
                                         alt="Third slide"
                                     />
                                 </Carousel.Item>
