@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import {
-  Route,
-  HashRouter
+    Route,
+    HashRouter
 } from "react-router-dom";
 import Navbar from 'react-bootstrap/Navbar'
 import NavDropdown from 'react-bootstrap/NavDropdown'
@@ -38,23 +38,23 @@ class Main extends Component {
                 <Nav.Link href="#/contact">Contact</Nav.Link>
                 <Nav.Link href="#/shop">Le shop</Nav.Link>
 
-              </Nav>
-            </Navbar.Collapse>
-            </Container>
-          </Navbar>
-          <Container>
-            <Route exact path="/" component={Club}/>
-            <Route path="/club" component={Club}/>
-            <Route path="/adhesion" component={Adhesion}/>
-            <Route path="/jeunes" component={Junior}/>
-            <Route path="/loisirs" component={Loisirs}/>
-            <Route path="/competitions" component={Competition}/>
-            <Route path="/contact" component={Contact}/>
-            <Route path="/shop" component={Merch}/>
-          </Container>
-        </HashRouter>
-    );
-  }
+                            </Nav>
+                        </Navbar.Collapse>
+                    </Container>
+                </Navbar>
+                <Container>
+                    <Route exact path="/" component={Club}/>
+                    <Route path="/club" component={Club}/>
+                    <Route path="/adhesion" component={Adhesion}/>
+                    <Route path="/jeunes" component={Junior}/>
+                    <Route path="/loisirs" component={Loisirs}/>
+                    <Route path="/competitions" component={Competition}/>
+                    <Route path="/contact" component={Contact}/>
+                    <Route path="/shop" component={Merch}/>
+                </Container>
+            </HashRouter>
+        );
+    }
 }
 
 export default Main;

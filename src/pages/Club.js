@@ -24,12 +24,12 @@ class Club extends Component {
                         <Col style={{display: "flex", alignItems: "center"}}>
 
                             <div>
-                                <p>Club fondé il ya maintenant plus de 10 ans, nous avons à coeur de permettre au plus
+                                <p>Club fondé il y a maintenant plus de 10 ans, nous avons à coeur de permettre au plus
                                     grand nombre de faire ou découvrir le volley-ball. <br/>
-                                    Les membres du bureau ont pour but de permettre à tous, peut importe l'âge ou le
+                                    Les membres du bureau ont pour but de permettre à tous, peu importe l'âge ou le
                                     niveau de pratiquer ce sport.
                                     <br/><br/>
-                                    Club conviviale, le BCVB cherche à pratiquer dans la bonne humeur le volley-ball
+                                    Club convivial, le BCVB cherche à pratiquer dans la bonne humeur le volley-ball
                                     afin de permettre aux jeunes et aux moins jeunes d'acquérir les bases et les
                                     principes du jeu, mais aussi aux plus expérimentés de perfectionner leurs pratiques
                                 </p>

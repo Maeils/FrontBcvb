@@ -10,7 +10,7 @@ function Junior() {
 
             <Row>
                 <Col>
-                    <p>Section crée pour les jeunes de 8 à 17 ans, afin de leurs permettre de découvrir, avec l'aide de
+                    <p>Section créée pour les jeunes de 8 à 17 ans, afin de leurs permettre de découvrir, avec l'aide de
                         Jérémy, les bases du volley-ball.
                         <br/>
                         <br/>
