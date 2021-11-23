@@ -22,14 +22,11 @@ class Club extends Component {
                 <Container>
                     <Row>
                         <Col style={{display: "flex", alignItems: "center"}}>
-
                             <div>
                                 <p>Club fondé il y a maintenant plus de 10 ans, nous avons à coeur de permettre au plus
-                                    grand nombre de faire ou découvrir le volley-ball. <br/>
-                                    Les membres du bureau ont pour but de permettre à tous, peu importe l'âge ou le
-                                    niveau de pratiquer ce sport.
+                                    grand nombre de pratiquer le volley-ball.<br/>
                                     <br/><br/>
-                                    Club convivial, le BCVB cherche à pratiquer dans la bonne humeur le volley-ball
+                                    Club convivial, le but du BCVB est de jouer au volley-ball dans la bonne humeur
                                     afin de permettre aux jeunes et aux moins jeunes d'acquérir les bases et les
                                     principes du jeu, mais aussi aux plus expérimentés de perfectionner leurs pratiques
                                 </p>
@@ -41,21 +38,21 @@ class Club extends Component {
                                     <img
                                         className="d-block w-100"
                                         src="https://photobcvb.s3.eu-west-3.amazonaws.com/image2.jpeg"
-                                        alt="Entrainement à Smirlian"
+                                        alt="Club du BCVB bois-colombes : Entrainement à Smirlian"
                                     />
                                 </Carousel.Item>
                                 <Carousel.Item>
                                     <img
                                         className="d-block w-100"
                                         src="https://photobcvb.s3.eu-west-3.amazonaws.com/image3.jpeg"
-                                        alt="Entrainement à Smirlian"
+                                        alt="Club du BCVB bois-colombes : Entrainement à Smirlian"
                                     />
                                 </Carousel.Item>
                                 <Carousel.Item>
                                     <img
                                         className="d-block w-100"
                                         src="https://photobcvb.s3.eu-west-3.amazonaws.com/image5.jpeg"
-                                        alt="Beach-volley"
+                                        alt="Club du BCVB bois-colombes : Beach-volley"
                                     />
                                 </Carousel.Item>
                             </Carousel>
@@ -69,7 +66,8 @@ class Club extends Component {
                             <h2>Les membres du bureau</h2>
                         </div>
                         <Col>
-                            <Card style={{width: '132px'}}> <Card.Img variant="top" src={arnault}/>
+                            <Card style={{width: '132px'}}> <Card.Img variant="top" src={arnault}
+                                                                      alt="Arnault président du club Bois-Colombes Volley-ball"/>
                                 <Card.Body>
                                     <Card.Title>Arnault</Card.Title>
                                     <Card.Text>
@@ -79,7 +77,8 @@ class Club extends Component {
                             </Card>
                         </Col>
                         <Col>
-                            <Card style={{width: '132px'}}> <Card.Img variant="top" src={matthieu}/>
+                            <Card style={{width: '132px'}}> <Card.Img variant="top" src={matthieu}
+                                                                      alt="Matthieu trésorier du club Bois-Colombes Volley-ball"/>
                                 <Card.Body>
                                     <Card.Title>Matthieu</Card.Title>
                                     <Card.Text>
@@ -89,7 +88,8 @@ class Club extends Component {
                             </Card>
                         </Col>
                         <Col>
-                            <Card style={{width: '132px'}}> <Card.Img variant="top" src={frederic}/>
+                            <Card style={{width: '132px'}}> <Card.Img variant="top" src={frederic}
+                                                                      alt="Frédérique secrétaire du club Bois-Colombes volley-ball et référente loisir"/>
                                 <Card.Body>
                                     <Card.Title>Frédérique</Card.Title>
                                     <Card.Text>
@@ -99,7 +99,8 @@ class Club extends Component {
                             </Card>
                         </Col>
                         <Col>
-                            <Card style={{width: '132px'}}> <Card.Img variant="top" src={olivier}/>
+                            <Card style={{width: '132px'}}> <Card.Img variant="top" src={olivier}
+                                                                      alt="Olivier responsable merchandising et référent compétition"/>
                                 <Card.Body>
                                     <Card.Title>Olivier</Card.Title>
                                     <Card.Text>
@@ -110,7 +111,8 @@ class Club extends Component {
                         </Col>
                         <Col>
                             <Card style={{width: '132px'}}>
-                                <Card.Img variant="top" src={estelle}/>
+                                <Card.Img variant="top" src={estelle}
+                                          alt="Estelle responsable merchandising et référente loisir"/>
                                 <Card.Body>
                                     <Card.Title>Estelle</Card.Title>
                                     <Card.Text>
@@ -120,7 +122,8 @@ class Club extends Component {
                             </Card>
                         </Col>
                         <Col>
-                            <Card style={{width: '132px'}}> <Card.Img variant="top" src={sloanne}/>
+                            <Card style={{width: '132px'}}> <Card.Img variant="top" src={sloanne}
+                                                                      alt="Sloanne responsable communication et évènement"/>
                                 <Card.Body>
                                     <Card.Title>Sloanne</Card.Title>
                                     <Card.Text>
@@ -130,7 +133,8 @@ class Club extends Component {
                             </Card>
                         </Col>
                         <Col>
-                            <Card style={{width: '132px'}}> <Card.Img variant="top" src={silvio}/>
+                            <Card style={{width: '132px'}}> <Card.Img variant="top" src={silvio}
+                                                                      alt="Silvio référent compétition"/>
                                 <Card.Body>
                                     <Card.Title>Silvio</Card.Title>
                                     <Card.Text>
@@ -140,7 +144,8 @@ class Club extends Component {
                             </Card>
                         </Col>
                         <Col>
-                            <Card style={{width: '132px'}}> <Card.Img variant="top" src={yann}/>
+                            <Card style={{width: '132px'}}> <Card.Img variant="top" src={yann}
+                                                                      alt="Yann référent compétition"/>
                                 <Card.Body>
                                     <Card.Title>Yann</Card.Title>
                                     <Card.Text>

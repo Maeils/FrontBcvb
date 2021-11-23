@@ -7,7 +7,6 @@ function Junior() {
     return (
         <div>
             <h2>Session Jeune</h2>
-
             <Row>
                 <Col>
                     <p>Section créée pour les jeunes de 8 à 17 ans, afin de leurs permettre de découvrir, avec l'aide de
@@ -25,8 +24,6 @@ function Junior() {
                     <p>Mercredi de 18h00 à 20h00</p>
                 </Col>
             </Row>
-
-
         </div>
     );
 

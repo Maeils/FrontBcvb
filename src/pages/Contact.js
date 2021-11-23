@@ -6,8 +6,6 @@ function Contact() {
 
     return (
         <div>
-
-
             <Row>
                 <Col>
                     <h3>Contactez-nous</h3>
@@ -24,8 +22,6 @@ function Contact() {
                             onClick={() => window.open("https://www.instagram.com/bc_volley", "_blank")}>Instagram</Button>
                 </Col>
             </Row>
-
-
         </div>
     );
 
