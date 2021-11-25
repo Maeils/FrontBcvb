@@ -8,7 +8,7 @@ import {Image} from "react-bootstrap";
 
 ReactDOM.render(
     <React.StrictMode>
-        <title>BCVB</title>
+        <title>BCVB - Bois-Colombes Volley-ball</title>
         <header>
             <div style={{
                 backgroundColor: "black",
