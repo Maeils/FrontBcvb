@@ -17,7 +17,7 @@ class Club extends Component {
         return (
             <Container>
                 <div style={{textAlign: "center"}}>
-                    <h1>Le BCVB</h1>
+                    <h1>BCVB - Bois-Colombes Volley-ball</h1>
                 </div>
                 <Container>
                     <Row>
