@@ -10,7 +10,7 @@ function Contact() {
                 <Col>
                     <h3>Contactez-nous</h3>
                     <p>Pour nous contacter n'hésitez pas à nous envoyer un mail à l'adresse suivante :<br/>
-                        <b>bcvb@gmail.com</b>
+                        <b>bcvb92@gmail.com</b>
                     </p>
                 </Col>
                 <Col>
